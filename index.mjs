@@ -1,6 +1,6 @@
 import server from "./src/app.mjs";
+import { PORT } from "./src/constants.mjs";
 
-const port = 3000;
-server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+server.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
 });

@@ -15,10 +15,16 @@ const server = createServer(async (req, res) => {
       result: topEarnerTransactionIds,
     });
 
+    if (postResponse.status !== 200) {
+      throw new Error(`HTTP error! status: ${postResponse.status}`);
+    }
+
     console.log({
       id: response.data.id,
       result: topEarnerTransactionIds,
     });
+
+    console.log("submit-task endpoint return: ", postResponse.status);
 
     res.write(JSON.stringify(postResponse.data));
     res.end();

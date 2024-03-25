@@ -1,6 +1,6 @@
 # ADP Interview Task
 
-## :pencil: Description
+## :pencil: Description:
 
 JavaScript (node.js) server application that makes an HTTP GET request to the `get-task` endpoint and handles data related to employee transactions.
 
@@ -24,6 +24,6 @@ After setting up and running the application, you should be able to see "Correct
 
 In the terminal, you will see the `id` and `results` sent, as well as the status code.
 
-## :books: Libraries Used
+## :books: Libraries Used:
 
 `Axios` library was used to make HTTP requests.

@@ -10,7 +10,7 @@ The final goal is to receive a `200` status code from the `submit-task` endpoint
 
 ## :computer: Getting started:
 
-Make sure you have installed [noje.js](https://nodejs.org/en) on your machine to be able to use `npm`.
+Make sure you have installed [node.js](https://nodejs.org/en) on your machine to be able to use `npm`.
 
 1. Use `git clone` to clone this repo
 2. Use `npm install`

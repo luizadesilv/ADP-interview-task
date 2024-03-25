@@ -23,3 +23,7 @@ Server running at http://localhost:3000
 After setting up and running the application, you should be able to see "Correct" on the browser if the status code is `200` (Success).
 
 In the terminal, you will see the `id` and `results` sent, as well as the status code.
+
+## :books: Libraries Used
+
+`Axios` library was used to make HTTP requests.
